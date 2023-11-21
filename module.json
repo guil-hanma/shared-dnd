@@ -1,0 +1,48 @@
+{
+    "name": "shared-dnd",
+    "title": "shared-dnd",
+    "author": "Gui",
+    "description": "teste",
+    "packs": [
+        {
+            "name": "teste",
+            "label": "Teste",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/teste.db",
+            "entity": "Item",
+            "module": "shared-dnd"
+        },
+        {
+            "name": "teste2",
+            "label": "Teste2",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/teste2.db",
+            "entity": "Item",
+            "module": "shared-dnd"
+        },
+        {
+            "name": "teste3",
+            "label": "Teste3",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/teste3.db",
+            "entity": "Item",
+            "module": "shared-dnd"
+        }
+    ],
+    "id": "shared-dnd",
+    "authors": [
+        {
+            "name": "Gui"
+        }
+    ],
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9",
+    "compatibility": {
+        "minimum": 9,
+        "verified": 10
+    },
+    "version": "1.1"
+}
